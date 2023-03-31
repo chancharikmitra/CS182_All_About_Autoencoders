@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath,amssymb}
+
+\DeclareRobustCommand{\bbone}{\text{\usefont{U}{bbold}{m}{n}1}}
+
+\DeclareMathOperator{\EX}{\mathbb{E}}% expected value
+\title{CS182 Project}
+\author{Michael Huang}
+\date{March 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{AEs}
+\section{VAEs}
+VAEs, or (V)ariational (A)uto(e)ncoders are a special type of autoencoder that generates new outputs rather than just output lower dimensionality data we've already seen before. More generally, VAEs generate \textit{new} information given patterns we've seen about the data. To do this, we'll need some probability theory under our belt.
+\subsection{On the Loss Function of VAEs}
+\begin{enumerate}
+    \item Consider a convex function $f$, and a convex random variable $X$ with probability distribution $p_X$. Show that $f(\EX[X]) \leq \EX[f(X)]$.
+    \\
+    \textit{hint: $\EX[X] = \sum_{x \in X} p_X(x) x$, where $\sum_{x \in X}p_X(x) = 1$}
+    \item We define a latent random variable $Z$ with probability distribution $q$. Show that $log(p(X)) \leq \EX_q[log(p(X, Z)) - log(q(Z))]$ using the results from question 1.
+
+    \item Recall in autoencoders, we have an encoder to decoder structure with a bottleneck in between. We can denote the learning parameters for the encoder as $\phi$ and the decoder as $\theta$, and $z$ as our latent representation. The variational autoencoder has the same principles, but we now fit a probability distribution over the encoder decoder structure to generate new samples.
+    \\
+    \\
+    More formally, we create a \textit{probabilistic encoder} and fit a probability distribution $q_{\phi}(z|x)$ to generate latent representations $z$, then fit a \textit{probabilistic decoder} and fit a probability distribution $p_{\theta}(x|z)$. The true goal of using these distributions is to sample $z \sim q_{\phi}(z|x)$ and use $z$ to generate new $x' \sim p_{\theta}(x|z)$.
+    
+\end{enumerate}
+\end{document}
