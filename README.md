@@ -1,1 +1,5 @@
-# CS182_All_About_Autoencoders
+
+
+## About
+
+Welcome to our comprehensive project on 
