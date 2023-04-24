@@ -31,9 +31,31 @@ python setup.py develop
 pip install -r requirements.txt
 ```
 
-Start with the AE_VAE.ipynb notebook. The directions should be very detailed and sequential, and it is recommended to have the conceptual guide open as a companion to your work.
+Start with the AE_VAE.ipynb notebook. The directions should be very detailed and sequential, and it is recommended to have the conceptual guide open as a companion to your work. Once completed, go to the VQ_VAE.ipynb notebook.
 
 ## Meta-Commentary
+
+Our project is sequentially laid out in such a way that *the notebooks paired with the conceptual guide serve as a detailed outline of the concepts being covered*. Nevertheless, here is a brief non-exhaustive, outline of concepts covered.
+
+1. Motivating the "Why?" For Autoencoders
+2. Basic Autoencoder architecture and use cases
+3. AE Motivation and Implementation
+4. VAE Motivation and Implementation
+5. VQ-VAE Motivation and Implementation
+6. AE, VAE, and VQ-VAE Ablations & Visualizations
+    - Loss Visualization
+    - Reconstruction Visualization
+    - AE/VAE Latent Space Visualization
+    - Denoising Ablation
+    - Sample Generation Ablation
+7. Conceptual/Mathematical Underpinnings
+8. Additional Resources and Current SOTA
+
+Elements of the project we were especially excited about:
+
+* Covering the bottleneck/architecture progression from AE to VAE to VQ-VAE using our own explanations and mathematical problems!
+* 2D and 3D Latent Space Visualization!
+* Sample Generation (especially for VAE and VQ-VAE)!
 
 ## Where to Go Next
 
