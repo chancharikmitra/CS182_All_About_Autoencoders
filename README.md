@@ -35,7 +35,7 @@ Start with the AE_VAE.ipynb notebook. The directions should be very detailed and
 
 ## ✔️ Meta-Commentary
 
-Our project is sequentially laid out in such a way that *the notebooks paired with the conceptual guide serve as a detailed outline of the concepts being covered*. Nevertheless, here is a brief non-exhaustive, outline of concepts covered. *Note to CS 182 Reviewers: Please refer to our full commentary doc for additional detail.*
+Our project is sequentially laid out in such a way that *the notebooks paired with the conceptual guide serve as a detailed outline of the concepts being covered*. Nevertheless, here is a brief non-exhaustive, outline of concepts covered. **Note to CS 182 Reviewers: Please refer to our full commentary doc for full commentary.**
 
 1. Motivating the "Why?" For Autoencoders
 2. Basic Autoencoder architecture and use cases
