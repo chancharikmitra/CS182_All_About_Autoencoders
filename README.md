@@ -83,4 +83,4 @@ Elements of the project we were especially excited about:
 
 ## 🖋️ Project Authors
 
-[Chancharik Mitra](https://www.linkedin.com/in/chancharik-m-151756178/), Jason Zhang, Joshua You, Michael Huang
+[Chancharik Mitra](https://www.linkedin.com/in/chancharik-m-151756178/), Jason Zhang, Joshua You, [Michael Huang](https://www.linkedin.com/in/themichaelhuang/)
