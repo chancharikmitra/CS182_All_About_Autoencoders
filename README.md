@@ -1,13 +1,13 @@
 ![Banner](banner.png)
 
 ## ℹ️ About
-
+---
 Welcome to our comprehensive project on autoencoders, where we start with introducing the motivations and purposes of autoencoder architectures. From there, we cover how to implement the (Vanilla) Autoencoder (AE), Variational Autoencoder (VAE), and finally, the more SOTA [Vector-Quantized Variational Autoencoder (VQVAE)](https://arxiv.org/pdf/1711.00937.pdf). These implemntations are supplemented with an array of informative ablations, visualizations, and conceptual problems to give the learner a more complete understanding of the topic. Our "Where to Go Next" and "References" sections are great resources for additional learning. 
 
 This resource was created as a final project for UC Berkeley's Deep Learning course [CS 182](https://inst.eecs.berkeley.edu/~cs182/). If you enjoyed your experience using this resource, we would appreciate sharing and starring of the repo so that others can gain value from the resource. We are more than happy to receive feedback through Github Issues. Happy Learning!
 
 ## 💻 Setup
-
+---
 There are two ways to interact with our project. One can choose to utilize Google Colab OR run the notebooks locally. Regardless of the environment, we recommend using a GPU for the VQ-VAE notebook.
 
 ### Google Colab Setup
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 Start with the AE_VAE.ipynb notebook. The directions should be very detailed and sequential, and it is recommended to have the conceptual guide open as a companion to your work. Once completed, go to the VQ_VAE.ipynb notebook.
 
 ## ✔️ Meta-Commentary
-
+---
 Our project is sequentially laid out in such a way that *the notebooks paired with the conceptual guide serve as a detailed outline of the concepts being covered*. Nevertheless, here is a brief non-exhaustive, outline of concepts covered. **Note to CS 182 Reviewers: Please refer to our full commentary.**
 
 1. Motivating the "Why?" For Autoencoders
@@ -58,8 +58,7 @@ Elements of the project we were especially excited about:
 * Sample Generation (especially for VAE and VQ-VAE)!
 
 ## 🗺️ Where to Go Next
-
-
+---
 1.   [CVAE](https://papers.nips.cc/paper_files/paper/2015/hash/8d55a249e6baa5c06772297520da2051-Abstract.html): Conditional VAEs are the next step following VAEs. The formulation allows for a more deterministic method for generating samples.
 2.   [RQVAE](http://arxiv.org/abs/2203.01941): The next stage of progress in extending the capabilities of the VQ-VAE.
 3.   [MISA](http://arxiv.org/abs/2005.03545): A fascinating use of AE architectures for multi-modal sentiment analysis.
@@ -72,7 +71,7 @@ Elements of the project we were especially excited about:
 
 
 ## 📖 References
-
+---
 1. Anello, E. (2022, December 4). Convolutional Autoencoder in Pytorch on MNIST dataset. DataSeries. https://medium.com/dataseries/convolutional-autoencoder-in-pytorch-on-mnist-dataset-d65145c132ac
 2. Ch. 9—Object Detection and Segmentation. (n.d.). Retrieved April 23, 2023, from https://manipulation.csail.mit.edu/segmentation.html
 3. Denoising MNIST images using autoencoder. (n.d.). Retrieved April 23, 2023, from https://kaggle.com/code/theblackmamba31/denoising-mnist-images-using-autoencoder
