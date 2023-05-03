@@ -57,6 +57,20 @@ Elements of the project we were especially excited about:
 * 2D and 3D Latent Space Visualization!
 * Sample Generation (especially for VAE and VQ-VAE)!
 
+## 🗺️ Where to Go Next
+
+
+1.   [CVAE](https://papers.nips.cc/paper_files/paper/2015/hash/8d55a249e6baa5c06772297520da2051-Abstract.html): Conditional VAEs are the next step following VAEs. The formulation allows for a more deterministic method for generating samples.
+2.   [RQVAE](http://arxiv.org/abs/2203.01941): The next stage of progress in extending the capabilities of the VQ-VAE.
+3.   [MISA](http://arxiv.org/abs/2005.03545): A fascinating use of AE architectures for multi-modal sentiment analysis.
+4.   [GANs](http://arxiv.org/abs/1406.2661): Generative Adversarial Networks (GANs) are somewhat similar in motivation to AE architectures. At a very high-level, it's much like an "inverted" AE that has the sole purpose of data generation and data discrimination.
+5.   Anomaly Detection: AE and GAN-like architectures being used in this subfield of research is very common.
+  - https://doi.org/10.1186/s42400-022-00134-9
+  - http://arxiv.org/abs/1511.05644
+  - http://arxiv.org/abs/2003.10713
+
+
+
 ## 📖 References
 
 1. Anello, E. (2022, December 4). Convolutional Autoencoder in Pytorch on MNIST dataset. DataSeries. https://medium.com/dataseries/convolutional-autoencoder-in-pytorch-on-mnist-dataset-d65145c132ac
