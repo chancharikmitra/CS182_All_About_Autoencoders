@@ -13,7 +13,7 @@ There are two ways to interact with our project. One can choose to utilize Googl
 ### Google Colab Setup
 1. Clone or copy the repository to your local device.
 2. Upload the entire repository folder to Google Colab.
-3. When you start with the notebooks, ensure your RunTime is GPU enabled.
+3. When you start with the notebooks, ensure your RunTime is GPU enabled (although it's not a requirement; just makes training a bit faster).
 
 ### Local Setup
 
