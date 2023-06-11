@@ -4,7 +4,7 @@
 ---
 Welcome to our comprehensive project on autoencoders, where we start with introducing the motivations and purposes of autoencoder architectures. From there, we cover how to implement the (Vanilla) Autoencoder (AE), Variational Autoencoder (VAE), and finally, the more SOTA [Vector-Quantized Variational Autoencoder (VQVAE)](https://arxiv.org/pdf/1711.00937.pdf). These implemntations are supplemented with an array of informative ablations, visualizations, and conceptual problems to give the learner a more complete understanding of the topic. Our "Where to Go Next" and "References" sections are great resources for additional learning. 
 
-This resource was created as a final project for UC Berkeley's Deep Learning course [CS 182](https://inst.eecs.berkeley.edu/~cs182/). If you enjoyed your experience using this resource, we would appreciate sharing and starring of the repo so that others can gain value from the resource. *We are more than happy to receive feedback through Github Issues.* Happy Learning!
+This resource was created as a final project for UC Berkeley's Deep Learning course [CS 182](https://inst.eecs.berkeley.edu/~cs182/). If you enjoyed your experience using this resource, we would appreciate sharing and starring of the repo so that others can gain value from the resource. *We are more than happy to receive feedback through Github Issues.* We have a lot of great information in this README, but if you want to jump right on, go straight ahead to the Setup section and get started! Happy Learning!
 
 ## 💻 Setup
 ---
